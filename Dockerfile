@@ -1,7 +1,7 @@
 FROM node:10-alpine as node
 
 WORKDIR /app
- 
+
 COPY package*.json /app/
 
 RUN npm install
